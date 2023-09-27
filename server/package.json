@@ -1,0 +1,19 @@
+{
+  "name": "@quran/server",
+  "version": "1.0.0",
+  "description": "The Quran app backend server API",
+  "main": "src/index.ts",
+  "author": "Ahmed Ibrahim",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build & node dist/index.js",
+    "dev": "nodemon -w src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "quran",
+  "version": "1.0.0",
+  "description": "The Quran app monorepo",
+  "repository": "https://github.com/neuodev/quran.git",
+  "author": "Ahmed Ibrahim <me@ahmedibrahim.dev>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ]
+}
