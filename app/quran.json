@@ -236,39 +236,48 @@
   "receiters": [
     {
       "receiterId": "maher",
-      "name": { "en": "Maher Almaikulai", "ar": "ماهر المعقلي" }
+      "name": { "en": "Maher Almaikulai", "ar": "ماهر المعقلي" },
+      "server": "https://server12.mp3quran.net"
     },
     {
       "receiterId": "yasser",
-      "name": { "en": "Yasser Al Dosary", "ar": "ياسر الدوسري" }
+      "name": { "en": "Yasser Al Dosary", "ar": "ياسر الدوسري" },
+      "server": "https://server11.mp3quran.net"
     },
     {
       "receiterId": "afs",
-      "name": { "en": "Mishari Al-afasi", "ar": "مشاري العفاسي" }
+      "name": { "en": "Mishari Al-afasi", "ar": "مشاري العفاسي" },
+      "server": "https://server8.mp3quran.net"
     },
     {
       "receiterId": "minsh",
-      "name": { "en": "Muhammad Siddiq Al-Minshawi", "ar": "محمد المنشاوي" }
+      "name": { "en": "Muhammad Siddiq Al-Minshawi", "ar": "محمد المنشاوي" },
+      "server": "https://server10.mp3quran.net"
     },
     {
       "receiterId": "frs_a",
-      "name": { "en": "Fares Abbad", "ar": "فارس عباد" }
+      "name": { "en": "Fares Abbad", "ar": "فارس عباد" },
+      "server": "https://server8.mp3quran.net"
     },
     {
       "receiterId": "hthfi",
-      "name": { "en": "Ali Al-Hudhayfi", "ar": "علي الحذيفي" }
+      "name": { "en": "Ali Al-Hudhayfi", "ar": "علي الحذيفي" },
+      "server": "https://server9.mp3quran.net"
     },
     {
       "receiterId": "bu_khtr",
-      "name": { "en": "Salah Bou Khater", "ar": "صلاح بوخاطر" }
+      "name": { "en": "Salah Bou Khater", "ar": "صلاح بوخاطر" },
+      "server": "https://server8.mp3quran.net"
     },
     {
       "receiterId": "s_gmd",
-      "name": { "en": "Saad Al-Ghamdi", "ar": "سعد الغامدي" }
+      "name": { "en": "Saad Al-Ghamdi", "ar": "سعد الغامدي" },
+      "server": "https://server7.mp3quran.net"
     },
     {
       "receiterId": "ahmed-alsaed-mndur",
-      "name": { "en": "Ahmed Saeed Mandour", "ar": "أحمد سعيد مندور" }
+      "name": { "en": "Ahmed Saeed Mandour", "ar": "أحمد سعيد مندور" },
+      "server": "https://ia601502.us.archive.org/28/items"
     }
   ]
 }
