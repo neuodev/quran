@@ -1,11 +1,17 @@
-import { Button } from "react-native";
+import { Text, View } from "react-native";
+import Receiters from "../components/Receiters";
+import text from "../ui-text.json";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <Button
-      title="Go to Jane's profile"
-      onPress={() => navigation.navigate("Profile", { name: "Jane" })}
-    />
+    <View>
+      <Text>Receiters</Text>
+      <Receiters
+        onPress={(receiter) =>
+          navigation.navigate(text["app.general.receiter"], { receiter })
+        }
+      />
+    </View>
   );
 };
 export default HomeScreen;
