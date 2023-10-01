@@ -6,5 +6,8 @@
   "app.general.loading": "جاري التحميل...",
   "app.surah.play": "تشغيل",
   "app.surah.continue": "استكمال",
-  "app.surah.stop": "إيقاف"
+  "app.surah.stop": "إيقاف",
+  "app.surah.download": "تحميل",
+  "app.surah.downloading": "جاري التحميل...",
+  "app.surah.addToDevice": "إضافة للجهاز"
 }

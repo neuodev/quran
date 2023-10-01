@@ -9,6 +9,10 @@ export function getReceiters() {
   }));
 }
 
+export function surahNameFromIdx(surahIdx, lang = "en") {
+  return quran.surahNames[lang][surahIdx - 1];
+}
+
 function asSurahName(suraIdx) {
   return suraIdx.toString().padStart(3, "0") + ".mp3";
 }
