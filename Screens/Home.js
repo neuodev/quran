@@ -5,7 +5,6 @@ import text from "../ui-text.json";
 const HomeScreen = ({ navigation }) => {
   return (
     <View>
-      <Text>Receiters</Text>
       <Receiters
         onPress={(receiter) =>
           navigation.navigate(text["app.general.receiter"], { receiter })
