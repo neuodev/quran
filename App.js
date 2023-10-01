@@ -6,6 +6,7 @@ import HomeScreen from "./Screens/Home";
 import text from "./ui-text.json";
 import { useState } from "react";
 import Receiter from "./Screens/Receiter";
+import Surah from "./Screens/Surah";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
           name={receiter ? receiter.name : text["app.general.receiter"]}
           component={Receiter}
         />
+        <Stack.Screen name={text["app.general.surah"]} component={Surah} />
       </Stack.Navigator>
     </NavigationContainer>
   );

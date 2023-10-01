@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import AudioPlayer from "./AudioPlayer";
 import { Audio } from "expo-av";
 
-const Surah = ({ surah }) => {
+const Surah = ({ surah, onPress }) => {
   const [sound, setSound] = useState(null);
 
   async function playSound(uri) {
@@ -25,11 +25,10 @@ const Surah = ({ surah }) => {
 
   return (
     <View>
-      <TouchableOpacity onPress={() => playSound(surah.surahUrl)}>
+      <TouchableOpacity onPress={onPress}>
         <Text style={styles.surahName}>
           ({surah.surahIdx}) {surah.name}
         </Text>
-        {sound && <AudioPlayer sound={sound} />}
       </TouchableOpacity>
     </View>
   );

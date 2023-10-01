@@ -1,5 +1,7 @@
 {
   "app.header.label": "القران",
   "app.home.label": "الصفحة الرئسية",
-  "app.general.receiter": "صفحة القرائ"
+  "app.general.receiter": "صفحة القرائ",
+  "app.general.surah": "السورة",
+  "app.surah.play": "تشغيل"
 }
