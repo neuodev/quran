@@ -3,5 +3,8 @@
   "app.home.label": "الصفحة الرئسية",
   "app.general.receiter": "صفحة القرائ",
   "app.general.surah": "السورة",
-  "app.surah.play": "تشغيل"
+  "app.general.loading": "جاري التحميل...",
+  "app.surah.play": "تشغيل",
+  "app.surah.continue": "استكمال",
+  "app.surah.stop": "إيقاف"
 }

@@ -1,28 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import AudioPlayer from "./AudioPlayer";
-import { Audio } from "expo-av";
 
 const Surah = ({ surah, onPress }) => {
-  const [sound, setSound] = useState(null);
-
-  async function playSound(uri) {
-    console.log(`Loading Sound for : ${uri}`);
-    const { sound } = await Audio.Sound.createAsync({ uri });
-    setSound(sound);
-    await sound.playAsync();
-  }
-
-  useEffect(() => {
-    return sound
-      ? () => {
-          console.log("Unloading Sound");
-          sound.unloadAsync();
-          setSound(null);
-        }
-      : undefined;
-  }, [sound]);
-
   return (
     <View>
       <TouchableOpacity onPress={onPress}>
