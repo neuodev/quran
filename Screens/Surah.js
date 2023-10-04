@@ -94,6 +94,7 @@ const Surah = ({ route }) => {
       }
       setDownloadStatus(false);
       setProgress(0);
+      setFileStatus();
     }
   }
 
